@@ -1,18 +1,22 @@
 package com.app.sample.learning
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    private val TAG="MainLog:"
+    private val TAG = "MainLogger:"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
 
-    private fun methodBranch1(){
-        Log.d(TAG, "methodBranch1: ")
+    private fun branchAfterRevertMethod1() {
+        Log.d(TAG, "branchAfterRevertMethod1: ")
+    }
+    private fun branch2OwnMethod1() {
+        Log.d(TAG, "branch2OwnMethod1: ")
     }
 }
