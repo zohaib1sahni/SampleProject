@@ -27,4 +27,8 @@ class MainActivity : AppCompatActivity() {
     private fun masterNewBranch() {
         Log.d(TAG, "masterNewBranch: ")
     }
+
+    private fun masterNewBranch2() {
+        Log.d(TAG, "masterNewBranch2: ")
+    }
 }
