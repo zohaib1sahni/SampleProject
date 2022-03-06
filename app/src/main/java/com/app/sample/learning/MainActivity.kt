@@ -51,4 +51,12 @@ class MainActivity : AppCompatActivity() {
     private fun branchMethod47() {
         Log.d(TAG, "branchMethod47: ")
     }
+
+    private fun branch4FirstMethod() {
+        Log.d(TAG, "branch4FirstMethod: ")
+    }
+
+    private fun branch4SecondMethod() {
+        Log.d(TAG, "branch4SecondMethod: ")
+    }
 }
