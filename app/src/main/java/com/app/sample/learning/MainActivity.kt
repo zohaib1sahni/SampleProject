@@ -24,12 +24,8 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "branch2OwnMethod2: ")
     }
 
-    private fun masterNewBranch() {
-        Log.d(TAG, "masterNewBranch: ")
-    }
-
-    private fun masterNewBranch2() {
-        Log.d(TAG, "masterNewBranch2: ")
+    private fun branch2OwnMethod3() {
+        Log.d(TAG, "branch2OwnMethod3: ")
     }
 
     private fun branch2OwnMethod4() {
