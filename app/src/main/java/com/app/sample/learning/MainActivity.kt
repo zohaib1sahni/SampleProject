@@ -47,4 +47,8 @@ class MainActivity : AppCompatActivity() {
     private fun mainMethod47() {
         Log.d(TAG, "mainMethod47: ")
     }
+
+    private fun branchMethod47() {
+        Log.d(TAG, "branchMethod47: ")
+    }
 }
