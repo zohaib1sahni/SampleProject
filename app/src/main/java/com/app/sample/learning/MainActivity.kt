@@ -16,4 +16,7 @@ class MainActivity : AppCompatActivity() {
     private fun branchAfterRevertMethod1() {
         Log.d(TAG, "branchAfterRevertMethod1: ")
     }
+    private fun branch2OwnMethod1() {
+        Log.d(TAG, "branch2OwnMethod1: ")
+    }
 }
