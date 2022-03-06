@@ -35,4 +35,8 @@ class MainActivity : AppCompatActivity() {
     private fun masterMethod39() {
         Log.d(TAG, "masterMethod39: ")
     }
+
+    private fun branchMethod43() {
+        Log.d(TAG, "branchMethod43: ")
+    }
 }
