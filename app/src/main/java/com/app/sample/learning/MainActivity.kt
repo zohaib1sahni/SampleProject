@@ -63,4 +63,8 @@ class MainActivity : AppCompatActivity() {
     private fun branch4ThirdMethod() {
         Log.d(TAG, "branch4ThirdMethod: ")
     }
+
+    private fun branchMps3Method() {
+        Log.d(TAG, "branchMps3Method: ")
+    }
 }
