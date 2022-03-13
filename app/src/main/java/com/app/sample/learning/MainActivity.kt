@@ -78,4 +78,12 @@ class MainActivity : AppCompatActivity() {
     private fun branchMps6Method() {
         Log.d(TAG, "branchMps6Method: ")
     }
+
+    private fun branchMps7Method() {
+        Log.d(TAG, "branchMps7Method: ")
+    }
+
+    private fun branchMps7MethodForReview() {
+        Log.d(TAG, "branchMps7MethodForReview: ")
+    }
 }
