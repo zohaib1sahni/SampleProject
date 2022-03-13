@@ -67,4 +67,8 @@ class MainActivity : AppCompatActivity() {
     private fun branchMps3Method() {
         Log.d(TAG, "branchMps3Method: ")
     }
+
+    private fun branchMps4Method() {
+        Log.d(TAG, "branchMps4Method: ")
+    }
 }
